@@ -1,8 +1,8 @@
 ---
 template: BlogPost
-path: /
+path: /entry
 date: 2021-04-18T23:40:04.689Z
-title: 'titulo de prueba '
+title: Singularidad
 metaDescription: >-
   un intento de blog rápido para probar el sistema de administración de
   contenido
