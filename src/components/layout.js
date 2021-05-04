@@ -25,7 +25,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
+        <p>&copy; {new Date().getFullYear()} DevId blog &bull; Created thanks to <a href="https://w3layouts.com">W3Layouts</a> with <span role="img" aria-label="love">❤️</span> David <span role="img" aria-label="smile">😊</span></p>
       </footer>
     </div>
   )

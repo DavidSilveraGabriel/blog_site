@@ -1,5 +1,8 @@
-import React from 'react'
-import { ThemeToggler } from 'gatsby-plugin-dark-mode'
+import React from 'react';
+import { Route } from 'react-router-dom';
+
+import { ThemeToggler } from 'gatsby-plugin-dark-mode';
+//import Switch  from '../components/animation/Switch';
 
 export default () => (
   <ThemeToggler>
@@ -12,6 +15,7 @@ export default () => (
           checked={theme === 'dark'}
         />{' '}
         <div className="mode-container">
+          
           <i className="gg-sun"></i>
           <i className="gg-moon"></i>
         </div>
