@@ -14,7 +14,7 @@ body.light {
   --featured-bg: #14d5f7;
   --featured-text: #fff;
   --secondary-color: #10072b;
-  --background: #fff;
+  --background: #ffffff;
   --site-header: var(--background);
   --card-bg: #fff;
   --card-bdr: #eee;
@@ -104,16 +104,21 @@ a {
   text-decoration: none;
   font-weight: 900;
   text-transform:none;
-  font-size: 50px;
+  font-size: 10px;
 }
 .hero-header {
-  padding: 0 0 64px;
-  max-width: 980px;
+  padding: 0 0 0px;
+  max-width: 100%;
 }
 .headline {
-  font-size: 46px;
-  font-weight: 900;
+  font-size: 70px;
+  font-weight: 500;
   margin-bottom: 0.5rem;
+}
+.flex-cont{
+  display: flex;
+  flex: auto;
+  max-width: 100%;
 }
 .button {
   padding: 18px 27px;
@@ -142,8 +147,9 @@ a {
     color: var(--btn-hover-text-color);
   }
 }
+
 .primary-content {
-  font-size: 22px;
+  font-size: 35px;
   margin-bottom: 23px;
   line-height: 1.5;
   font-weight: 300;
@@ -298,14 +304,12 @@ a {
   }
 }
 /* Portrait and Landscape */
-@media only screen 
-and (min-width: 768px) {
-.grids {
-  grid-template-columns: 1fr 1fr;
+@media only screen and (min-width: 768px) {
+  .grids {
+    grid-template-columns: 1fr 1fr;
+  }
 }
-}
-@media only screen 
-  and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .grids {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -313,6 +317,11 @@ and (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 64px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flex-cont{
+    display:inline;
   }
 }
 

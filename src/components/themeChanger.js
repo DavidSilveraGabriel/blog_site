@@ -1,8 +1,6 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-
 import { ThemeToggler } from 'gatsby-plugin-dark-mode';
-//import Switch  from '../components/animation/Switch';
 
 export default () => (
   <ThemeToggler>
