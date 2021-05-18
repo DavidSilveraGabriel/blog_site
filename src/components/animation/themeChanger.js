@@ -13,11 +13,12 @@ const Toggler = () => {
     let sunshine = true;
     
     animation.current = new RiveAnimation({ 
-      src: './switch_butom.riv',
+      src: '../switch_butom.riv',
       canvas: canvas.current,
       autoplay: true,
      });
 
+     
     const toggle = () =>{
       animation.current.play(sunshine ? 'switch_day' : 'nigth_idle');
       sunshine = !sunshine;
@@ -51,10 +52,10 @@ const Toggler = () => {
                 className="theme-changer"
                 onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')}
                 checked={theme === 'dark'}
-              />{<div ref={container} className='OuterContainer'>
-              <canvas  ref={canvas}/>
-            </div>}
-              
+              />{' '}
+              <div ref={container} className='OuterContainer'>
+                <canvas  ref={canvas}/>
+              </div>
             </label>
         )}
       </ThemeToggler>
