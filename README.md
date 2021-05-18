@@ -1,24 +1,23 @@
-# Delog - Blog for Developer and Designer
-This simple website built with GatsbyJS and Netlify CMS. Deploys on netlify with single click. This Starter is sponsered by [W3Layouts](https://w3layouts.com).
+# David Blog
 
-[![Delog - Gatsby Starter Demo](https://w3layouts.com/wp-content/uploads/2020/03/delog.jpg)](https://delog-w3layouts.netlify.com/)
+This website is a personal portfolio-blog, built with GatsbyJS and Netlify CMS. Deploys on netlify with single click. This Starter is sponsered by [W3Layouts](https://w3layouts.com).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/W3Layouts/gatsby-starter-delog)
 
-Install this starter locally: (assuming you already have [NodeJS and GatsbyJS installed](https://www.gatsbyjs.org/tutorial/part-zero/))
+Install the original starter locally: (assuming you already have [NodeJS and GatsbyJS installed](https://www.gatsbyjs.org/tutorial/part-zero/))
+
 ```bash
 gatsby new gatsby-starter-delog https://github.com/W3Layouts/gatsby-starter-delog
 ```
 
-Instructions also available at W3Layouts [Delog Launch Article](https://w3layouts.com/articles/delog-gatsby-starter-netlify-cms/).
+Instructions also available at W3Layouts [Delog Launch Article](https://w3layouts.com/articles/delog-gatsby-starter-netlify-cms/). 
 
 ## Features
 - Built with GatsbyJS and Netlify CMS
 - Option to Add, Edit, Update and Delete posts via Netlify CMS
 - SEO friendly - Option to Add meta description
-- In-built contact form powered by [W3Layouts](https://w3layouts.com) 
 - Comes with dark mode
-
+- Rive and Lottie animations
+- Responsive and mobile-first
 ---
 
 ## Documentation
@@ -55,14 +54,14 @@ Inside you Netlify CMS admin, `Settings > Config` or you can go to `site-meta-da
 * Site URL
 * Homepage Title
 * Homepage Description
-* To get the Contact form working. you need too add a form at [W3Layouts forms](https://my.w3layouts.com/Forms/). Follow the steps [How to enable W3Layouts Contact form](https://w3layouts.com/articles/introducing-contact-forms-for-static-websites/) instructions to create a form then your contact form is all set.
+
 
 ### Add Google Analytics
 Change `trackingId` in `gatsby-config.js` at `gatsby-plugin-google-analytics` plugin
 
 ---
 
-I hope you will build a great website with Delog. If you like it please spread the word, Feel free to contribute and raise a pull request :)
+I hope you will build a great website with this starter. If you like it please spread the word, Feel free to contribute and raise a pull request :)
 
 For issues,feedback on enhancement or sharing your new awesome website built with delog. [Create New Issue](https://github.com/W3Layouts/gatsby-starter-delog/issues/new) Here
 
@@ -76,45 +75,7 @@ We are maintaining future task in [Github Project](https://github.com/W3Layouts/
 ## Credits
 - Awesome image used in demo is from [Unsplash](https://unsplash.com)
 - CSS and SVG Icons by [CSS.gg](https://css.gg)
+- Lottie animation [guy](https://lottiefiles.com/27649-lets-chat)
+- Rive animation [sun-moon](https://rive.app/community/281-556-dark-mode-buttom/)
 
 ---
-
-## Changelog
-All notable changes to this project are listed here.
-
-### [1.6.0] - 2020-05-03
-#### Added
-- Custom 404 page.
-- Site name will be appended in blog posts and contact page.
-- Reordering fields in Netlify CMS for better flow of post creation.
-- Validation for path in Netlify CMS
-
-### [1.5.0] - 2020-05-03
-#### Added
-- Settings page in Netlify CMS to customize site meta data.
-- Site meta data is pulled from `site-meta-data.json`. maintained via Netlify CMS
-
-### [1.4.0] - 2020-05-01
-#### Added
-- `gatsby-plugin-sitemap` Creates a sitemap for your Gatsby site in production.
-
-#### Changed
-- Changelog improvements
-- Comments on `gatsby-config.js`
-- Comments on `static/admin/config.yml`
-
-### [1.3.0] - 2020-04-30
-#### Added
-- `gatsby-plugin-offline` drop-in support for making a GatsbyJS site work offline and more resistant to bad network connections.
-- `gatsby-plugin-manifest` configures GatsbyJS to create a manifest.webmanifest file on every site build
-
-### [1.2.0] - 2020-04-28
-#### Added 
-- GatsbyJS Increment builds with Netlify deployment
-
-### [1.1.0] - 2020-04-21
-#### Added 
-- Dark mode compatibitly and toggle for user preference
-
-### [1.0.0] - 2020-03-14
-- Launch of GatsbyJS and Netlify CMS based starter `gatsby-starter-delog`
