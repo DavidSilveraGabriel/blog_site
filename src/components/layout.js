@@ -19,13 +19,16 @@ export default ({ children }) => {
     <div className="site-wrapper">
       <header className="site-header">
         <div className="site-title">
-          <a aria-current="page" href="https://devidblog.netlify.app/"><img src="../icons/icon-48x48.png" alt="logo"/></a>
+          <a aria-current="page" href="https://devidblog.netlify.app/">
+            <img src="../icons/icon-48x48.png" alt="logo"/>
+          </a>
         </div>
         <Navigation />
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} DevId blog &bull; Created thanks to <a href="https://w3layouts.com">W3Layouts</a> with <span role="img" aria-label="love">❤️</span> David <span role="img" aria-label="smile">😊</span></p>
+        <p>&copy; {new Date().getFullYear()} DevId blog &bull; Created thanks to <a href="https://w3layouts.com">W3Layouts</a> with <span role="img" aria-label="love">❤️</span> David <span role="img" aria-label="smile">😊</span>
+        </p>
       </footer>
     </div>
   )

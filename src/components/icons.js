@@ -17,7 +17,7 @@ export default () => (
                 </a>
             </li>
             <li>
-                <a href="https://docs.google.com/document/d/1JNiHcGirVjN4OmUs5n9jfRKhaX7Ofhr0hdVUsatEa3Q/edit?usp=sharing"
+                <a href="#"
                  className="hvr-grow">
                     <BusinessCenterIcon fontSize="large"/>
                 </a>

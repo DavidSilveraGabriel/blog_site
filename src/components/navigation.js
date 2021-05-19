@@ -4,8 +4,8 @@ import Icons from '../components/icons';
 
 export default (props) => (
   <nav className="navigation"> 
-    <Icons />
     <ThemeChanger />
+    <Icons />
   </nav>
   
 )

@@ -13,7 +13,7 @@ const Toggler = () => {
     let sunshine = true;
     
     animation.current = new RiveAnimation({ 
-      src: '../switch_butom.riv',
+      src: '/switch_butom.riv',
       canvas: canvas.current,
       autoplay: true,
      });
