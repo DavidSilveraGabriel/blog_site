@@ -1,12 +1,11 @@
 # David Blog
 
-This website is a personal portfolio-blog, built with GatsbyJS and Netlify CMS. Deploys on netlify with single click. This Starter is sponsered by [W3Layouts](https://w3layouts.com).
-
+This website is a personal portfolio-blog, built with GatsbyJS and Netlify CMS. Deploys on netlify with single click.
 
 Install the original starter locally: (assuming you already have [NodeJS and GatsbyJS installed](https://www.gatsbyjs.org/tutorial/part-zero/))
 
 ```bash
-gatsby new gatsby-starter-delog https://github.com/W3Layouts/gatsby-starter-delog
+gatsby new NAME_OF_YOU_PROJECT https://github.com/W3Layouts/gatsby-starter-delog
 ```
 
 Instructions also available at W3Layouts [Delog Launch Article](https://w3layouts.com/articles/delog-gatsby-starter-netlify-cms/). 
