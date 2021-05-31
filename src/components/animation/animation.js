@@ -13,6 +13,7 @@ class Lottie extends React.Component {
         autoplay={true}
         loop={true}
         controls={true}
+        speed={1}
         src="https://assets2.lottiefiles.com/packages/lf20_QpolL2.json"
         style={{ height: '500px', width: '500px' }}
       ></Player>

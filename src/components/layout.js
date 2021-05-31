@@ -19,7 +19,7 @@ export default ({ children }) => {
     <div className="site-wrapper">
       <header className="site-header">
         <div className="site-title">
-          <a aria-current="page" href="https://devidblog.netlify.app/">
+          <a aria-current="page" href="/">
             <img src="../icons/icon-48x48.png" alt="logo"/>
           </a>
         </div>

@@ -56,21 +56,7 @@ typings/
 
 # files
 .cache/
-public/admin
-public/assets
-public/icons
-public/page-data
-public/static
-public/favicon-32x32.png 
-public/favicon.ico 
-public/index.html
-public/manifest.webmanifest 
-public/render-page.js 
-public/render-page.js.map 
-public/webpack.stats.json
-public/281-556-dark-mode-buttom.riv
-public/chunk-map.json
-
+public/
 # Mac files
 .DS_Store
 

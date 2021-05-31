@@ -1,15 +1,16 @@
 import React from "react";
-import ThemeChanger from "./animation/themeChanger";
 import Icons from '../components/icons';
+import SunMoon from '../components/animation/toggler';
 
 export default (props) => (
   <nav className="navigation"> 
-    <ThemeChanger />
-    <Icons />
+    <Icons /> 
+    <SunMoon />
   </nav>
   
 )
 /* agregar el <ThemeChanger/> <KnightAnimation />
+
 ###########################
 Code for review
 ###########################

@@ -1,4 +1,4 @@
-$font-family: Roboto,Oxygen-Sans,sans-serif;
+$font-family: Helvetica;//Helvetica;//,Newsreader,Roboto; //Roboto, Oxygen-Sans, sans-serif;
 
 html,
 body {
@@ -8,7 +8,7 @@ body {
 * {
   margin-top: 0
 }
-body.light {
+body.dark {
   --primary-color: #51b9e2;
   --primary-text-color: rgba(246, 248, 248, 0.87);
   --featured-bg: #14d5f7;
@@ -16,30 +16,30 @@ body.light {
   --secondary-color: #10072b;
   --background: #ffffff;
   --site-header: var(--background);
-  --card-bg: #fff;
-  --card-bdr: #eee;
-  --card-shadow: #166ea8;
+  --card-bg: rgba(255, 255, 255, 0.555);
+  --card-bdr: rgba(238, 238, 238, 0.103);
+  --card-shadow: #37393a;
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
   --btn-text-color: #868892;
   --btn-hover-bg: var(--btn-bdr);
   --btn-hover-text-color: #00062b;
-  --contact-bg: #f7f8fe;
-  --contact-bdr: #d3d6e7;
+  --contact-bg: #f7f8fe1c;
+  --contact-bdr: #d3d6e71f;
   --input-bg: var(--background);
 }
-body.dark {
-  --primary-color: #9984d5;
+body.ligth {
+  --primary-color: #3c2874;
   --primary-text-color: #fff;
-  --featured-bg: #66578d;
+  --featured-bg: #3f2b70;
   --featured-text: #fff;
-  --secondary-color: #66578d;
-  --background:  #03475c;
-  --background-image: linear-gradient(45deg, #0c675e, #069e90);
+  --secondary-color: #3c2d63;
+  --background:  #025872;
+  --background-image: linear-gradient(45deg, #03443e, #075850);
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
   --site-header: var(--background);
-  --card-bg: #1a2d46;
+  --card-bg: #042d648e;
   --card-bdr: #1a2d46;
   --card-shadow: #0e0e1d;
   --btn-bg: var(--background);
@@ -115,7 +115,7 @@ ul.network-icon {
   text-decoration: none;
   font-weight: 900;
   text-transform:none;
-  font-size: 25px;
+  font-size: 45px;
 }
 .hero-header {
   padding: 0 0 0px;
@@ -128,6 +128,7 @@ ul.network-icon {
 }
 .flex-cont{
   display: flex;
+  justify-content: space-between;
   flex: auto;
   max-width: 100%;
 }
@@ -231,13 +232,8 @@ ul.network-icon {
   grid-gap: 32px;
   margin-top: 32px;
 }
-.OuterContainer {
-  max-width: 100px;
-  max-height: 50px;
-}
-.canva {
-  border-radius: 60px;
-}
+
+
 /*
 .InnerContainer {
   position: relative;
@@ -247,7 +243,7 @@ ul.network-icon {
 
 .card {
   display: grid;
-  background-color: rgba(0,0,0,.125); //var(--card-bg);
+  background-color: rgba(212, 54, 54, 0); //var(--card-bg);
   border-radius: 9px;
   border: 1px solid var(--card-bdr);
   box-shadow: 0 0 30px var(--card-shadow);
@@ -286,9 +282,10 @@ ul.network-icon {
 .site-footer {
   text-align: center;
   margin: 90px 0 16px;
-  color: #666;
+  color: rgb(0, 0, 0);
   a {
     font-weight: 700;
+    font-size: large;
   }
 }
 .form-container {
